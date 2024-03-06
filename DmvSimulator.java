@@ -1,9 +1,6 @@
 public class DmvSimulator {
     public static void main(String[] args) {
-        int userNumber = (int) ((Math.random()) * 100);
-        if (userNumber == 0) {
-            userNumber = 1;
-        }
+        int userNumber = (int) ((Math.random()) * 200) + 1;
         int numberCalled = userNumber + 1;
         System.out.println("Your number is: " + userNumber);
         System.out.println("Please wait until your number is called");
@@ -16,7 +13,7 @@ public class DmvSimulator {
             }
             numberCalled++;
 
-            if (numberCalled > 100) {
+            if (numberCalled > 200) {
                 numberCalled = 1;
             }
         }
