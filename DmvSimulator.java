@@ -11,7 +11,7 @@ public class DmvSimulator {
             System.out.println("Calling number: " + numberCalled);
 
             if (numberCalled == userNumber) {
-                System.out.println("You don't have the required paperwork");
+                System.out.println("You do NOT have the required paperwork! Be a competent person and bring everything you need before waiting in line!!!");
                 break;
             }
             numberCalled++;
